@@ -11,7 +11,8 @@ PAGE=[
         isQuestion:false,
         dialogue:["Hi there! My name is Ellie the Elephant. I am responsible for waste management training on this planet. Welcome to our one and only planet -- Planet Earth.", "We have a big problem to solve."
     , "There is so much waste. For each type of waste, we need to take different actions. For instance, some waste can be recycled and some cannot. The problem is many of us cannot categorize waste properly. ", 
-    "Your mission is to learn the different types of waste and collect magical plants from the planets, by interacting with different waste, and answering questions about what you can do to the waste.", "Let's first head to the Recyclable Planet."],
+    "Your mission is to learn the different types of waste and collect magical plants from the planets, by interacting with different waste, and answering questions about what you can do to the waste.", 
+    "Let's first head to the Recyclable Planet, which is the blue planet on the map."],
         nextpage:null
     },
     {
