@@ -20,7 +20,7 @@ function initialize(){
 function display(){
     pageElement = PAGE[pageIndex];
     if(pageIndex == PAGE.length-1){
-        Game()endOf;
+        endOfGame();
         return;
     }
     displayBackground();
@@ -259,13 +259,14 @@ function endOfGame(){
     displayTitle();
     displayStoneCount();
     displayBody();
-    resultString = "Your score is "+mentalScore+"!!!!!\n"+ ((mentalScore>20)?"The assessment indicates that you do not understand waste management.":"The assessment indicates that you understand waste management.");
+    resultString = "Your score is "+mentalScore+"!!!!!\n"+ ((mentalScore>20)?"The assessment indicates that you do not understand waste management":"The assessment indicates that you do understand waste management.");
 
     resultEl = document.createElement("div");
     resultEl.innerHTML = resultString;
     resultEl.className = "resultDiv";
 
-    disclaimerString = "You just complete the training. Please understand that this training has no meaning if you do not implement what you just learned in real life."
+    disclaimerString = "You just completed the Waste Management training, but this training has no meaning if you do not impelement what you just learned in real life. Please take care of you waste. Recycle whenever possible."
+    
     disclaimerEl =document.createElement("div");
     disclaimerEl.innerHTML = disclaimerString;
     disclaimerEl.className = "disclaimerDiv";
